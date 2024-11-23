@@ -1,0 +1,22 @@
+stages:
+  - deploy
+
+deploy:
+  stage: deploy
+  before_script:
+  - apt-get update -y && apt-get install -y ssh
+  script:
+    - chmod 600 $RSA
+    - ssh -o StrictHostKeyChecking=no -i $RSA $VM_USER@$VM  "cd ~/../../mnt/my_mount_point/team-project-deployment && git fetch && git reset --hard origin/main"
+    - ssh -o StrictHostKeyChecking=no -i $RSA $VM_USER@$VM  "cd ~/../../mnt/my_mount_point/team-project-deployment && git pull"
+    - ssh -o StrictHostKeyChecking=no -i $RSA $VM_USER@$VM  "cd ~/../../mnt/my_mount_point/team-project-deployment && docker-compose down"
+    - ssh -o StrictHostKeyChecking=no -i $RSA $VM_USER@$VM  "yes | docker system prune --force"
+    - ssh -o StrictHostKeyChecking=no -i $RSA $VM_USER@$VM  "cd ~/../../mnt/my_mount_point/team-project-deployment && python3 manage.py makemigrations"
+    - ssh -o StrictHostKeyChecking=no -i $RSA $VM_USER@$VM  "cd ~/../../mnt/my_mount_point/team-project-deployment && python3 manage.py migrate"
+    - ssh -o StrictHostKeyChecking=no -i $RSA $VM_USER@$VM  "cd ~/../../mnt/my_mount_point/team-project-deployment/frontend && npm install node --reinstall-packages-from=node"
+    - ssh -o StrictHostKeyChecking=no -i $RSA $VM_USER@$VM  "cd ~/../../mnt/my_mount_point/team-project-deployment/frontend && npm install"
+    - ssh -o StrictHostKeyChecking=no -i $RSA $VM_USER@$VM  "cd ~/../../mnt/my_mount_point/team-project-deployment/frontend && npm install @fortawesome/fontawesome-svg-core"
+    - ssh -o StrictHostKeyChecking=no -i $RSA $VM_USER@$VM  "cd ~/../../mnt/my_mount_point/team-project-deployment/frontend && npm run build"
+    - ssh -o StrictHostKeyChecking=no -i $RSA $VM_USER@$VM  "cd ~/../../mnt/my_mount_point/team-project-deployment && python3 createDummyData.py"
+    - ssh -o StrictHostKeyChecking=no -i $RSA $VM_USER@$VM  "cd ~/../../mnt/my_mount_point/team-project-deployment && python3 createDbModel.py"
+    - ssh -o StrictHostKeyChecking=no -i $RSA $VM_USER@$VM  "cd ~/../../mnt/my_mount_point/team-project-deployment && docker-compose up --build -d"
