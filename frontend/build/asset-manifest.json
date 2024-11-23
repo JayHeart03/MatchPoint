@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bfb94836.css",
+    "main.js": "/static/js/main.78f5f66d.js",
+    "static/media/homepage3.jpg": "/static/media/homepage3.854bd1b0d2a113412507.jpg",
+    "static/media/court13.jpg": "/static/media/court13.a0eb0f6f4e986279adee.jpg",
+    "static/media/court13-dark.jpg": "/static/media/court13-dark.8274c97ffff1dc826692.jpg",
+    "static/media/tennis.jpg": "/static/media/tennis.64ccae735a062e084ba8.jpg",
+    "static/media/tennis-dark.jpg": "/static/media/tennis-dark.c3c131920181a4311b19.jpg",
+    "static/media/join-dark.jpg": "/static/media/join-dark.1d4c162b1be83b4ea2e6.jpg",
+    "static/media/thisit.jpg": "/static/media/thisit.7ebef31871a7fd914ff9.jpg",
+    "static/media/basketball-court.jpg": "/static/media/basketball-court.5301429ba5fceb9b25a1.jpg",
+    "static/media/profile.png": "/static/media/profile.cd628882c29667e30320.png",
+    "static/media/basketball-court-dark.jpg": "/static/media/basketball-court-dark.b60006d82834de9c88d5.jpg",
+    "static/media/court.jpg": "/static/media/court.999513995cfd9b07dc51.jpg",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
+    "static/media/image.png": "/static/media/image.ed879201e8658e49923b.png",
+    "static/media/logo.png": "/static/media/logo.c2e9e6227996cb041e84.png",
+    "static/media/greylogo.png": "/static/media/greylogo.55b38658c80ad036a5bd.png",
+    "static/media/Sun.svg": "/static/media/Sun.681607dcda2a01539a9a8a157ae74e6e.svg",
+    "static/media/Moon.svg": "/static/media/Moon.0a6a2b75ac51157455302ddcfca385c0.svg",
+    "index.html": "/index.html",
+    "main.bfb94836.css.map": "/static/css/main.bfb94836.css.map",
+    "main.78f5f66d.js.map": "/static/js/main.78f5f66d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bfb94836.css",
+    "static/js/main.78f5f66d.js"
+  ]
+}

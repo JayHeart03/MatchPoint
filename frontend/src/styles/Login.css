@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login-main-container{
+    height: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+
+}
+
+.forgot-form{
+    
+    margin-top: 50px;
+}
+
+.pass-button{
+    height: 43px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: none;
+    border: none;
+    border-left: solid 2px black;
+    background-color: rgb(194, 132, 32);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+
+}
+
+.pass-button:hover{
+    background-color: rgb(134, 95, 23);
+
+}
+
+.email-forgot{
+    
+    height: 43px;
+    padding-left: 7px;
+    width: 280px;
+    border: none;
+    outline: none;
+    background-color: rgb(217, 205, 183);
+}
+
+.email-forgot::placeholder{
+color: black;
+}
+.login-header{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 8px ;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 35px;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 40%;
+    width: 100%;
+}
+
+.login-form{
+    width: 100%;
+
+}
+
+.login-input {
+    background: rgba(255,255,255, 0.15) !important;
+    box-shadow: 0 8px 32px 0 rgba(84, 84, 84, 0.27);
+    border-radius: 2rem;
+    width: 90%;
+    height: auto;
+    padding: 0.5rem;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    border: none;
+    outline: none;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.login-input:focus{
+    background: rgba(255,255,255, 0.15) !important;
+    box-shadow: 0 8px 32px 0 rgba(84, 84, 84, 0.27);
+    border-radius: 2rem;
+    width: 90%;
+    height: auto;
+    padding: 0.5rem;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    border: none;
+    outline: none;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+.Main-box{
+margin-top: 30px;
+display: flex;
+align-items: center;
+flex-direction: column;
+height: 500px;
+background: rgba(255, 255, 255, 0.3);
+backdrop-filter: blur(6.5px);
+border-radius: 10px;
+color: #000000;
+text-transform: uppercase;
+letter-spacing: 0.4rem;
+padding-bottom: 15px;
+}
+
+
+.login-input:focus{
+    display: inline-block;
+    box-shadow: 0 0 0 0.1rem rgb(0, 0, 0);
+}
+
+.login-input::placeholder{
+    color: rgb(0, 0, 0);
+    font-weight: 220;
+    font-size: 1rem;
+}
+
+
+.button-container{
+    padding-top: 10px;
+    padding-bottom: 7px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 13px;
+    flex-direction: column; 
+}
+
+.login-error {
+    text-align: center; /* add this */
+    margin-top: 20px; /* adjust as needed */
+    font-size: 14px;
+    color: rgb(104, 25, 25);
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+  }
+
+.login-button{
+    background: linear-gradient(to right, rgb(169, 96, 18) 10%, white 90% );
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    width: 60%;
+    height: 2rem;
+    border: none;
+    border-radius: 2rem;
+    font-weight: bold;
+    color: black;
+    margin-top: 5px;
+    margin-bottom: -30px;
+}
+
+.login-button:hover{
+    background: linear-gradient(to right, rgb(150, 101, 15) 10%, rgb(184, 182, 182) 90% );
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    width: 60%;
+    height: 2rem;
+    border: none;
+    border-radius: 2rem;
+    font-weight: bold;
+    color: black;
+}
+
+.LoginWith{
+    cursor: pointer;
+    margin-top: -30px;
+    
+}
+
+.HorizontalRule{
+    width: 90%;
+    height: 0.4rem;
+    border-radius: 1rem;
+    border: none;
+    background: linear-gradient(to right, rgb(214, 158, 29) 30%, rgb(207, 207, 207) 80%);
+    margin-top: 0spx;
+    margin-bottom: 5px;
+    
+}
+
+.icon-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    width: 70%;
+    font-size: 60px;
+}
+.login-links {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    font-size: 70px;
+    margin-bottom: 0px;
+    letter-spacing: 0.1rem;
+}
+
+.login-links a {
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:640px){
+    .login-header{
+        font-weight: bold;
+        font-size: 19px;
+    }
+
+    .LoginWith{
+        cursor: pointer;
+        font-size: 15px;
+        margin-bottom: -4px;
+        
+    }
+
+    .login-error {
+        text-align: center; /* add this */
+        margin-top: 10px; /* adjust as needed */
+        margin-bottom: -15px;
+        font-size: 12px;
+        color: rgb(104, 25, 25);
+        font-weight: bold;
+        letter-spacing: 0.2rem;
+      }
+    .input-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 40%;
+        width: 100%;
+        margin-top: 5px;
+    }
+    
+    .login-input {
+        background: rgba(255,255,255, 0.15);
+        box-shadow: 0 8px 32px 0 rgba(84, 84, 84, 0.27);
+        border-radius: 2rem;
+        width: 90%;
+        height: 50px;
+        padding: 0.6rem;
+        margin-bottom: 8px;
+        margin-top: 8px;
+        border: none;
+        outline: none;
+        color: #000000;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .Main-box{
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 360px;
+        background: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(6.5px);
+        border-radius: 10px;
+        color: #000000;
+        text-transform: uppercase;
+        letter-spacing: 0.4rem;
+        
+        }
+        .login-button{
+            background: linear-gradient(to right, rgb(169, 96, 18) 10%, white 90% );
+            text-transform: uppercase;
+            letter-spacing: 0.2rem;
+            width: 50%;
+            height: 1.5rem;
+            border: none;
+            border-radius: 2rem;
+            font-weight: bold;
+            color: black;
+            margin-top: 3px;
+        }
+        
+        .login-button:hover{
+            background: linear-gradient(to right, rgb(130, 78, 22) 10%, white 90% );
+            text-transform: uppercase;
+            letter-spacing: 0.2rem;
+            width: 50%;
+            height: 1.5rem;
+            border: none;
+            border-radius: 2rem;
+            font-weight: bold;
+            color: black;
+        }
+        .login-input::placeholder{
+            color: rgb(0, 0, 0);
+            font-weight: 220;
+            font-size: 0.9rem;
+        }
+        .HorizontalRule{
+            width: 90%;
+            height: 0.4rem;
+            border-radius: 1rem;
+            border: none;
+            background: linear-gradient(to right, rgb(214, 158, 29) 30%, rgb(207, 207, 207) 80%);
+            margin-bottom: 6px;
+            
+        }
+        .icon-container{
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 0px;
+            width: 80%;
+            font-size: 60px;
+        }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

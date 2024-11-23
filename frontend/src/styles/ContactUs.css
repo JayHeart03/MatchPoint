@@ -1,0 +1,156 @@
+.hero-contact{
+    height: 100vh;
+    width: 100%;
+    object-fit: contain;
+    
+}
+
+.content-contact{
+    text-align: center;
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    top: 12vh;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+.contact-form{
+display: block;
+background: rgba(255, 255, 255, 0.699);
+backdrop-filter: blur(10px);
+margin: 20px auto;
+width: 40%;
+max-width: 700px;
+height: auto;
+padding: 15px;
+border-radius: 15px;
+padding-bottom: 30px;
+}
+
+.contact-main{
+    margin: 0;
+    padding: 0;
+    background-color: #eee ;
+}
+
+
+.contact-form input, textarea{
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.599);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 450;
+    color:rgb(0, 0, 0)
+}
+
+.con-in::placeholder{
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+
+}
+
+.con-in-con {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .con-la {
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: rgb(0, 0, 0);
+  }
+  .con-in{
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .con-button{
+    background-color: rgb(181, 132, 59);
+    padding-left:  60px;
+    padding-right: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    margin-left: 0;
+    margin-top: 5px;
+    width: 93%;
+    padding: 10px;
+    margin-top: 15px;
+    font-weight: bold;
+    
+
+  }
+  .con-button:hover{
+    background-color: rgb(140, 100, 40);
+    padding-left:  60px;
+    padding-right: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    margin-left: 0;
+    margin-top: 5px;
+    width: 93%;
+    padding: 10px;
+    margin-top: 15px;
+    
+
+  }
+
+
+
+@media screen and (max-width:640px){
+    .contact-form{
+        display: block;
+        background: rgba(255, 255, 255, 0.699);
+        backdrop-filter: blur(10px);
+        margin: 20px auto;
+        width: 90%;
+        height: auto;
+        padding: 15px;
+        border-radius: 15px;
+        }
+
+        .con-in-con {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 10px;
+            padding-right: 5px;
+            padding-left: 5px;
+          }
+
+          .homepage-main{
+            background-image: url(../assets/homepage3.jpg);
+            background-size: cover;
+            height: 200vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            
+        }
+
+}
+

@@ -1,0 +1,644 @@
+.social-main{
+    height: 120vh;
+    width: 100vw;
+    background-image: var(  --stats-wall);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(  --joingame-search-type);
+}
+
+
+.error-social{
+    margin-top: 0px;
+    color: rgb(188, 23, 23);
+
+
+}
+.stat-inc1{
+    width: 50%;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+    border-radius: 10px;
+    color: white;
+    background-color: var(  --social-button);
+    font-weight: bold;
+    outline: none;
+    
+  }
+  
+  .stat-inc1:hover{
+    background-color: var(  --social-hover);
+  }
+
+.social-container{
+    height: 78%;
+    width: 65%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    color: var(  --joingame-search-type);
+}
+
+.social-left-side{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width:60%;
+    color: var(  --joingame-search-type);
+
+}
+
+
+
+.social-right-side{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 38%;
+    color: var(  --joingame-search-type);
+    
+}
+
+.recently-played-with{
+    width: 100%;
+    height: 43%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(  --stats-div);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    border-radius: 15px;
+    color: var(  --joingame-search-type);
+    overflow: auto;
+}
+
+
+.rpw-title{
+    height: 14%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 7px;
+    align-items: flex-end;
+    border-bottom: 2px solid var(  --joingame-search-type);;
+    margin-bottom: 10px;
+    overflow: auto;
+
+}
+
+.rpw-content{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.fr-title{
+    height: 14%;
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 7px;
+    align-items: flex-end;
+    border-bottom: 2px solid var(  --joingame-search-type);;
+    margin-bottom: 10px;
+    overflow: auto;
+}
+.fr-content{
+    width: 100%;
+    height: 90%;
+    color: var(  --joingame-search-type);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.friend-request{
+    width: 100%;
+    height: 46%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(  --stats-div);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    border-radius: 15px;
+}
+
+
+
+
+
+
+.four-buttons{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    color: var(  --joingame-search-type);
+
+}
+
+.top-buttons{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    color: var(  --joingame-search-type);
+    
+
+}
+
+.bottom-buttons{
+    height: 32%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    color: var(  --joingame-search-type);
+}
+
+
+.button-2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: var(  --stats-div);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    color: var(  --joingame-search-type);
+    
+}
+
+.button-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 49%;
+    
+    
+}
+
+.button-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 48%;
+}
+
+
+
+
+
+.friend-search{
+    width: 100%;
+    height: 73.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(  --stats-div);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    border-radius: 15px;
+    color: var(  --joingame-search-type);
+}
+
+.search-bar{
+    border: 1px solid  var(  --joingame-search-type);;
+    width: 90%;
+    height: 8%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+.search-speech2{
+    margin-bottom: -10px;
+    margin-top: 10px;
+
+    
+}
+
+
+
+.search-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 100%;
+    color: var(  --joingame-search-type);
+
+}
+
+
+.search-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    color: var(  --joingame-search-type);
+    
+
+}
+.search-bar input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: var(  --joingame-search-type);
+}
+
+.friends-number{
+    width: 90%;
+    height: 7%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: var(  --joingame-search-type);
+}
+.friends-number h5{
+    font-weight: bold;
+    font-size: 19px;
+    color: var(  --joingame-search-type);
+}
+
+
+.list-of-friends{
+    width: 100%;
+    height: 80%;
+    
+}
+
+.list-of-friends li{
+    width: 94%;
+    height: 80%;
+    border-bottom: 1px solid  var(  --joingame-search-type);;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 7px;
+
+    
+}
+
+
+.social-right-side h2{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 21px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(  --joingame-search-type);
+  }
+
+
+
+
+
+
+.idbutton {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(238, 235, 219, 0.578);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    color: black;
+    border: none;
+  }
+
+
+.search-box {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 2px solid  var(  --joingame-search-type); ;
+    color: white ;
+  }
+
+.list-group {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: none;
+  }
+
+.list-group-item {
+    color: var(  --joingame-search-type);
+    width: 90%;
+    height: auto;
+    background-color: transparent;
+    border-bottom: 0.2px solid var(  --joingame-search-type);;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+
+.recent-social{
+    width: 100%;
+    height: 100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 1px;
+    color: var(  --joingame-search-type);
+
+}
+
+.add-friend-div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: var(  --joingame-search-type);
+}
+.recent-user{
+    height: 100%;
+    width: 100%;
+    color: var(  --joingame-search-type);
+}
+
+
+
+.ListGroup-1{
+    max-height: 100%;
+    width: 100%;
+    color: var(  --joingame-search-type);
+    
+}
+
+
+.add-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    color: var(  --joingame-search-type);
+    margin-top: -10px;
+  }
+  
+  .add-form label {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+    color: var(  --joingame-search-type);
+  }
+  
+  .add-form input[type="text"] {
+    width: 90%;
+    border-radius: 3px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    background-color: transparent;
+    color: var(  --joingame-search-type);
+    
+  }
+
+  .add-form input[type="text"]::placeholder {
+   font-size: 15px;
+   color: var(  --joingame-search-type);
+
+  }
+
+  .add-friend-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 90%;
+    border: 1px solid  var(  --joingame-search-type);;
+    margin-bottom: 10px;
+}
+.user-plus{
+    margin-right: 5px;
+    margin-bottom: 1px;
+}
+
+  
+  .add-friend-button{
+    background-color: #2752df;
+    color: rgb(255, 255, 255);
+    width: 90%;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 3px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: -8px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .add-friend-button:hover {
+    background-color: #1541d4;;
+  }
+
+  .remove-btn {
+    background-color: rgb(176, 12, 12);
+    color: white;
+    border: none;
+    padding: 3px 5px;
+    margin-top: -5px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: small;
+  } 
+
+  .remove-btn:hover {
+    background-color: rgb(131, 9, 9);
+    color: white;
+    border: none;
+    padding: 3px 5px;
+    margin-top: -5px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: small;
+  } 
+
+  .delete{
+    background-color: rgb(176, 12, 12);
+
+  }
+  .delete:hover{
+    background-color: rgb(135, 12, 12);
+
+  }
+
+  .accept{
+    background-color: rgb(11, 129, 11);
+
+  }
+  .accep:hover{
+    background-color: rgb(9, 75, 9);
+
+  }
+
+
+
+  @media screen and (max-width:640px){
+    .social-container{
+        height: 100%;
+        width: 95%;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        color: var(  --joingame-search-type);
+    }
+    .social-main{
+        height: 250vh;
+        width: 100vw;
+        background-image: var(  --stats-wall);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(  --joingame-search-type);
+    }
+    
+
+    .social-left-side{
+        display:flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        height: 40%;
+        width:100%;
+        color: var(  --joingame-search-type);
+    
+    }
+    
+    
+    
+    .social-right-side{
+        display:flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        height: 60%;
+        width: 100%;
+        color: var(  --joingame-search-type);
+        
+    }
+
+    .friend-search{
+        width: 100%;
+        height: 55%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        background-color: var(  --stats-div);
+        box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(4px);
+        border-radius: 15px;
+        color: var(  --joingame-search-type);
+    }
+
+    .friend-request{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: var(  --stats-div);
+        box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(4px);
+        border-radius: 15px;
+    }
+
+    .four-buttons{
+        width: 100%;
+        margin-top: 100px;
+        height: 25%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        color: var(  --joingame-search-type);
+        margin-bottom: 20px;
+    
+    }
+
+    .recently-played-with{
+        width: 100%;
+        height: 35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: var(  --stats-div);
+        box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(4px);
+        border-radius: 15px;
+        color: var(  --joingame-search-type);
+        overflow: auto;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .friend-request{
+        width: 100%;
+        height: 46%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: var(  --stats-div);
+        box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(4px);
+        border-radius: 15px;
+    }
+
+    .stat-font{
+        margin-top: -12px;
+    }
+
+  }

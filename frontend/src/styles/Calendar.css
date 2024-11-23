@@ -1,0 +1,128 @@
+/* React calendar styles */
+.react-calendar {
+  font-family: 'Helvetica Neue', sans-serif;
+  border-radius: 15px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color:   var(  --join-game-title-div);
+  backdrop-filter: blur(10px);
+  font-size: large;
+  color: var(  --joingame-search-type);
+}
+
+.react-calendar__navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: var(  --joingame-search-type);
+  
+}
+
+.react-calendar__navigation button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  color: var(  --joingame-search-type);
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.react-calendar__navigation button:hover {
+  background-color: rgba(175, 171, 171, 0.749);
+  backdrop-filter: blur(10px);
+}
+
+.react-calendar__navigation__label {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+  color: var(  --joingame-search-type);
+  
+}
+
+.react-calendar__month-view__days__day {
+  width: 100%;
+  height: 37px;
+  border: none;
+  margin: 0px;
+  text-align: center;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  color: var(  --joingame-search-type);
+}
+
+.react-calendar__month-view__days__day:hover {
+  background-color: #959494;
+  
+}
+
+.react-calendar__month-view__days__day--weekend {
+  font-weight: bold;
+  color: var(  --joingame-search-type);
+
+}
+
+.react-calendar__month-view__days__day--neighboringMonth {
+  color: #276d9c;;
+  font-weight: bold;
+}
+.react-calendar__tile{
+  color: var(  --joingame-search-type);
+
+}
+.react-calendar__tile--now {
+  background-color: #6b8fb3;
+    color: var(  --joingame-search-type);
+}
+
+.react-calendar__tile--active {
+  background-color: #3498DB;
+  color: #FFFFFF;
+}
+
+.react-calendar__tile--active:disabled {
+  color: var(  --joingame-search-type);
+  cursor: not-allowed;
+}
+.react-calendar__month-view__weekdays {
+  text-decoration: none;
+}
+
+
+
+
+.react-calendar__tile--hover {
+  background-color: #979595;
+  cursor: pointer;
+}
+
+.react-calendar__tile--now:enabled:hover,
+.react-calendar__tile--now:enabled:focus {
+  background-color: #2C3E50;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background-color: #3498DB;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+

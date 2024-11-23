@@ -1,3 +1,2 @@
-frontend/
-
-debug.log
+# 忽略 frontend 文件夹内的 node_modules 子文件夹
+frontend/node_modules/

@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+[data-theme="dark"]{
+  --body_background: #282c34;
+  --body_color: white;
+  --link_color: rgb(255, 255, 255);
+  --body_background-creategame-button:#163a9e;
+  --body_background-creategame-button-hover: #07226b6e;
+  --body_background-creategame-button-border: #0d2565;
+  --body_background-creategame-main-container: #282c34;
+  --body_background-creategame-form-button: #163a9e;
+  --body_background-creategame-form-button-hover: #07226b;
+  --logo-create-game: url(./assets/image.png);
+  --create-game-label: white;
+  --create-game-input: rgb(255, 255, 255);
+  --create-game-background-image: url(./assets/basketball-court-dark.jpg);
+  --stats-button: #9c6814;
+  --stats-button-hover: #734d10;
+
+--lobby-why: rgba(0, 0, 0, 0.594);;
+--lobby-paper: url(./assets/court.jpg);
+--lobby-whys: rgba(0, 0, 0, 0.594);;
+
+
+
+
+  --Join-game-find-title: white;
+  --join-game-title-div:  rgb(49, 48, 48);
+  --join-game-search-bar: rgb(49, 48, 48);
+  --join-game-border: white;
+  --joingame-search-type: white;
+  --join-game-section-select:  rgb(49, 48, 48);
+  --join-game-background-image: url(./assets/join-dark.jpg);
+  --join-game-font-button: #163a9e;
+  
+  --view-profile-main-div:  rgba(46, 46, 46, 0.79);
+  --view-profile-button: #145c0d;
+  --view-wallpaper: url(./assets/court13-dark.jpg);
+  --view-profile-font:  #145c0d;
+  --view-profile-hover: #0d3a09;
+  --view-border: #0d3a09;
+
+  --stats-div: rgb(21, 21, 21);
+  --stats-wall: url(./assets/tennis-dark.jpg);
+  --logo-create-game-stats: url(./assets/image.png);
+
+  --social-button: rgb(27, 66, 219);
+  --social-hover: rgb(22, 47, 148);
+  --view-profile-main-div1:  rgba(46, 46, 46, 0.79);
+
+
+  
+
+}
+
+:root{
+  --lobby-paper: url(./assets/thisit.jpg);
+  --lobby-whys: rgb(255, 255, 255);;
+  --lobby-why: white;
+  --social-button: rgb(27, 66, 219);
+  --social-hover: rgb(22, 47, 148);
+  --view-profile-main-div1: rgb(255, 255, 255);
+
+
+  --body_background: white;
+  --body_color: white;
+  --link_color: rgb(255, 255, 255);
+  --body_background-creategame-button: rgba(255, 255, 255, 0.185);
+  --body_background-creategame-button-hover:rgba(255, 255, 255, 0.622);
+  --body_background-creategame-button-border: white;
+  --body_background-creategame-main-container:rgba(205, 203, 203, 0.51);
+  --body_background-creategame-form-button:#000000;
+  --body_background-creategame-form-button-hover:#453d3d;
+  --logo-create-game: url(./assets/image.png);
+  --create-game-label: black;
+  --create-game-input: rgb(255, 255, 255);
+  --create-game-background-image: url(./assets/basketball-court.jpg);
+  --stats-button: rgba(238, 235, 219);
+  --stats-button-hover: rgba(238, 235, 219, 0.757);
+
+  --Join-game-find-title: black;
+  --join-game-title-div:  rgba(224, 220, 220);
+  --join-game-search-bar: rgba(224, 220, 220);
+  --join-game-border: black;
+  --joingame-search-type: black;
+  --join-game-section-select:  rgba(224, 220, 220);
+  --join-game-background-image: url(./assets/thisit.jpg);
+  --join-game-font-button: rgba(224, 220, 220);
+
+
+  --view-profile-main-div: rgba(255, 255, 255, 0.699);
+  --view-profile-button: #162e14ce;
+  --view-wallpaper: url(./assets/court13.jpg);
+  --view-profile-font: rgba(0, 0, 0, 0.585);
+  --view-profile-hover:rgba(0, 0, 0, 0.985);
+  --view-border: white;
+
+
+  --stats-div: rgba(238, 235, 219);
+  --stats-wall: url(./assets/tennis.jpg);
+  --logo-create-game-stats: url(./assets/logo.png);
+
+
+  
+
+}
+
+
+
+
+
+
